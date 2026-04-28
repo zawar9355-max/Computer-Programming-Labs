@@ -1,0 +1,889 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 7 /Kids [ 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R ] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 1852 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(============================================================) Tj
+T*
+(Q01_Declare_Voltage_Current_Resistance.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 1) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    double voltage, current, resistance; // Declare electrical quantities as double for decimal values) Tj
+T*
+() Tj
+T*
+(    cout << "Variables voltage, current, and resistance are declared as double." << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q02_Display_Welcome_Message.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 2) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    cout << "Welcome to Object Oriented Programming in C++!" << endl; // Display the required message) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q03_Read_Age.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 3) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    int age;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter your age: ";) Tj
+T*
+(    cin >> age; // Read integer value entered by the user) Tj
+T*
+() Tj
+T*
+(    cout << "Age entered: " << age << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+ET
+
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 1667 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q04_Overheating_Detected.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 4) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    double temperature;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter temperature: ";) Tj
+T*
+(    cin >> temperature;) Tj
+T*
+() Tj
+T*
+(    if \(temperature > 100\) { // Print warning only when temperature exceeds 100) Tj
+T*
+(        cout << "Overheating detected!" << endl;) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q05_Area_Of_Circle.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 5) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    double r, area;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter radius of the circle: ";) Tj
+T*
+(    cin >> r;) Tj
+T*
+() Tj
+T*
+(    area = 3.14159 * r * r; // Formula for area of a circle: pi * r^2) Tj
+T*
+() Tj
+T*
+(    cout << "Area of circle: " << area << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q06_Print_X_Y_Z_With_Commas.cpp) Tj
+T*
+(============================================================) Tj
+T*
+ET
+
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 1702 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(// Assignment 1 - Question 6) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    int x, y, z;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter values of x, y, and z: ";) Tj
+T*
+(    cin >> x >> y >> z; // Read all three values in a single input statement) Tj
+T*
+() Tj
+T*
+(    cout << x << ", " << y << ", " << z << endl; // Print values separated by commas) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q07_Sum_Of_Voltage_And_Current.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 7) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    double voltage, current, total;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter voltage: ";) Tj
+T*
+(    cin >> voltage;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter current: ";) Tj
+T*
+(    cin >> current;) Tj
+T*
+() Tj
+T*
+(    total = voltage + current; // Store the sum in variable total) Tj
+T*
+() Tj
+T*
+(    cout << "Total = " << total << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q08_Division_By_Zero_Error.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 8) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+ET
+
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 1671 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    double denominator;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter denominator: ";) Tj
+T*
+(    cin >> denominator;) Tj
+T*
+() Tj
+T*
+(    if \(denominator == 0\) { // Error message appears only when denominator is zero) Tj
+T*
+(        cout << "Error: Division by zero" << endl;) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q09_Increment_Count_And_Print.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 9) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    int count;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter count: ";) Tj
+T*
+(    cin >> count;) Tj
+T*
+() Tj
+T*
+(    count++; // Increase count by 1 before printing) Tj
+T*
+() Tj
+T*
+(    cout << "New value of count: " << count << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q10_Read_Three_Floating_Point_Numbers.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 10) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    float a, b, c;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter three floating-point numbers: ";) Tj
+T*
+(    cin >> a >> b >> c; // Read three decimal numbers from the keyboard) Tj
+T*
+ET
+
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1739 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+() Tj
+T*
+(    cout << "a = " << a << ", b = " << b << ", c = " << c << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q11_Total_Resistance_In_Series.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 11) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    double r1, r2, r3, totalResistance;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter resistance R1: ";) Tj
+T*
+(    cin >> r1;) Tj
+T*
+(    cout << "Enter resistance R2: ";) Tj
+T*
+(    cin >> r2;) Tj
+T*
+(    cout << "Enter resistance R3: ";) Tj
+T*
+(    cin >> r3;) Tj
+T*
+() Tj
+T*
+(    totalResistance = r1 + r2 + r3; // In series, resistances are added directly) Tj
+T*
+() Tj
+T*
+(    cout << "Total resistance in series = " << totalResistance << " ohms" << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q12_Total_Resistance_In_Parallel.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 12) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    double r1, r2, r3, totalResistance;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter resistance R1: ";) Tj
+T*
+(    cin >> r1;) Tj
+T*
+(    cout << "Enter resistance R2: ";) Tj
+T*
+(    cin >> r2;) Tj
+T*
+(    cout << "Enter resistance R3: ";) Tj
+T*
+(    cin >> r3;) Tj
+T*
+() Tj
+T*
+ET
+
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 2266 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(    totalResistance = 1 / \(\(1 / r1\) + \(1 / r2\) + \(1 / r3\)\); // Equivalent resistance formula for parallel resistors) Tj
+T*
+() Tj
+T*
+(    cout << "Total resistance in parallel = " << totalResistance << " ohms" << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q13_Voltage_Division_Rule.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 13) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    double r1 = 10.0;) Tj
+T*
+(    double r2 = 20.0;) Tj
+T*
+(    double voltage = 12.0;) Tj
+T*
+(    double voltageAcrossR2;) Tj
+T*
+() Tj
+T*
+(    voltageAcrossR2 = voltage * \(r2 / \(r1 + r2\)\); // Voltage across R2 in a series circuit) Tj
+T*
+() Tj
+T*
+(    cout << "Selected values: R1 = " << r1 << " ohms, R2 = " << r2 << " ohms, Voltage = " << voltage << " volts" << endl;) Tj
+T*
+(    cout << "Voltage across R2 = " << voltageAcrossR2 << " volts" << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q14_Current_Division_Rule.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 14) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    double r1 = 6.0;) Tj
+T*
+(    double r2 = 3.0;) Tj
+T*
+(    double voltage = 12.0;) Tj
+T*
+(    double totalCurrent, currentThroughR2;) Tj
+T*
+() Tj
+T*
+(    totalCurrent = voltage / \(\(r1 * r2\) / \(r1 + r2\)\); // Find total current using equivalent parallel resistance) Tj
+T*
+(    currentThroughR2 = totalCurrent * \(r1 / \(r1 + r2\)\); // Current division formula for the branch containing R2) Tj
+T*
+() Tj
+T*
+(    cout << "Selected values: R1 = " << r1 << " ohms, R2 = " << r2 << " ohms, Voltage = " << voltage << " volts" << endl;) Tj
+T*
+(    cout << "Current through R2 = " << currentThroughR2 << " amperes" << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+ET
+
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 1784 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q15_Semester_GPA_Calculator.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 1 - Question 15) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(#include <string>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    int numberOfSubjects;) Tj
+T*
+(    double creditHours, gradePoints;) Tj
+T*
+(    double totalQualityPoints = 0, totalCreditHours = 0, sgpa;) Tj
+T*
+(    string subjectName;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter total number of subjects: ";) Tj
+T*
+(    cin >> numberOfSubjects;) Tj
+T*
+(    cin.ignore\(\); // Clear newline before using getline for subject names) Tj
+T*
+() Tj
+T*
+(    for \(int i = 1; i <= numberOfSubjects; i++\) {) Tj
+T*
+(        cout << "Enter subject " << i << " name: ";) Tj
+T*
+(        getline\(cin, subjectName\);) Tj
+T*
+() Tj
+T*
+(        cout << "Enter credit hours for " << subjectName << ": ";) Tj
+T*
+(        cin >> creditHours;) Tj
+T*
+() Tj
+T*
+(        cout << "Enter grade points for " << subjectName << ": ";) Tj
+T*
+(        cin >> gradePoints;) Tj
+T*
+() Tj
+T*
+(        totalQualityPoints += creditHours * gradePoints; // Quality points = credit hours multiplied by grade points) Tj
+T*
+(        totalCreditHours += creditHours;) Tj
+T*
+(        cin.ignore\(\); // Clear newline before reading the next subject name) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    sgpa = totalQualityPoints / totalCreditHours; // SGPA = total quality points / total credit hours) Tj
+T*
+() Tj
+T*
+(    cout << "Semester GPA = " << sgpa << endl;) Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+ET
+
+endstream
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000157 00000 n 
+0000000225 00000 n 
+0000000351 00000 n 
+0000002255 00000 n 
+0000002381 00000 n 
+0000004100 00000 n 
+0000004226 00000 n 
+0000005980 00000 n 
+0000006108 00000 n 
+0000007832 00000 n 
+0000007960 00000 n 
+0000009752 00000 n 
+0000009880 00000 n 
+0000012199 00000 n 
+0000012327 00000 n 
+trailer
+<< /Size 18 /Root 1 0 R >>
+startxref
+14164
+%%EOF
