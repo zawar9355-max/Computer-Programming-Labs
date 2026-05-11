@@ -1,0 +1,1353 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 10 /Kids [ 4 0 R 6 0 R 8 0 R 10 0 R 12 0 R 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R ] >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2244 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(============================================================) Tj
+T*
+(Q01_Array_Max_Min_Average.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 2 - Question 1) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    const int SIZE = 10;) Tj
+T*
+(    int numbers[SIZE];) Tj
+T*
+(    int maximumValue, minimumValue, sum = 0;) Tj
+T*
+(    double average;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter 10 integer values:" << endl;) Tj
+T*
+(    for \(int i = 0; i < SIZE; i++\) {) Tj
+T*
+(        cout << "Value " << i + 1 << ": ";) Tj
+T*
+(        cin >> numbers[i];) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    maximumValue = numbers[0];) Tj
+T*
+(    minimumValue = numbers[0];) Tj
+T*
+() Tj
+T*
+(    for \(int i = 0; i < SIZE; i++\) {) Tj
+T*
+(        if \(numbers[i] > maximumValue\) {) Tj
+T*
+(            maximumValue = numbers[i];) Tj
+T*
+(        }) Tj
+T*
+() Tj
+T*
+(        if \(numbers[i] < minimumValue\) {) Tj
+T*
+(            minimumValue = numbers[i];) Tj
+T*
+(        }) Tj
+T*
+() Tj
+T*
+(        sum += numbers[i];) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    average = static_cast<double>\(sum\) / SIZE; // Convert to double to get decimal average) Tj
+T*
+() Tj
+T*
+(    cout << "\\nMaximum value = " << maximumValue << endl;) Tj
+T*
+(    cout << "Minimum value = " << minimumValue << endl;) Tj
+T*
+(    cout << "Average = " << average << endl;) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q02_Reverse_One_D_Array_Using_Function.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 2 - Question 2) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(void displayArray\(const int array[], int size\) {) Tj
+T*
+(    for \(int i = 0; i < size; i++\) {) Tj
+T*
+(        cout << array[i] << " ";) Tj
+T*
+(    }) Tj
+T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 2204 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(    cout << endl;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(void reverseArray\(int array[], int size\) {) Tj
+T*
+(    for \(int start = 0, end = size - 1; start < end; start++, end--\) {) Tj
+T*
+(        int temp = array[start];) Tj
+T*
+(        array[start] = array[end];) Tj
+T*
+(        array[end] = temp;) Tj
+T*
+(    }) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    const int SIZE = 10;) Tj
+T*
+(    int numbers[SIZE];) Tj
+T*
+() Tj
+T*
+(    cout << "Enter 10 integers for the array:" << endl;) Tj
+T*
+(    for \(int i = 0; i < SIZE; i++\) {) Tj
+T*
+(        cout << "Value " << i + 1 << ": ";) Tj
+T*
+(        cin >> numbers[i];) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    cout << "\\nArray before reversal: ";) Tj
+T*
+(    displayArray\(numbers, SIZE\);) Tj
+T*
+() Tj
+T*
+(    reverseArray\(numbers, SIZE\); // Reverse the original array through a function) Tj
+T*
+() Tj
+T*
+(    cout << "Array after reversal: ";) Tj
+T*
+(    displayArray\(numbers, SIZE\);) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q03_Matrix_Addition.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 2 - Question 3) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    const int ROWS = 3;) Tj
+T*
+(    const int COLS = 3;) Tj
+T*
+(    int matrixA[ROWS][COLS];) Tj
+T*
+(    int matrixB[ROWS][COLS];) Tj
+T*
+(    int result[ROWS][COLS];) Tj
+T*
+() Tj
+T*
+(    cout << "Enter elements of first 3x3 matrix:" << endl;) Tj
+T*
+(    for \(int i = 0; i < ROWS; i++\) {) Tj
+T*
+(        for \(int j = 0; j < COLS; j++\) {) Tj
+T*
+(            cout << "A[" << i << "][" << j << "]: ";) Tj
+T*
+(            cin >> matrixA[i][j];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    cout << "\\nEnter elements of second 3x3 matrix:" << endl;) Tj
+T*
+(    for \(int i = 0; i < ROWS; i++\) {) Tj
+T*
+(        for \(int j = 0; j < COLS; j++\) {) Tj
+T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 2174 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(            cout << "B[" << i << "][" << j << "]: ";) Tj
+T*
+(            cin >> matrixB[i][j];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    for \(int i = 0; i < ROWS; i++\) {) Tj
+T*
+(        for \(int j = 0; j < COLS; j++\) {) Tj
+T*
+(            result[i][j] = matrixA[i][j] + matrixB[i][j]; // Add matching elements) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    cout << "\\nResultant matrix after addition:" << endl;) Tj
+T*
+(    for \(int i = 0; i < ROWS; i++\) {) Tj
+T*
+(        for \(int j = 0; j < COLS; j++\) {) Tj
+T*
+(            cout << result[i][j] << "\\t";) Tj
+T*
+(        }) Tj
+T*
+(        cout << endl;) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q04_Sort_Student_Names.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 2 - Question 4) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(#include <string>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    const int SIZE = 5;) Tj
+T*
+(    string names[SIZE];) Tj
+T*
+() Tj
+T*
+(    cout << "Enter names of 5 students:" << endl;) Tj
+T*
+(    cin.ignore\(\);) Tj
+T*
+(    for \(int i = 0; i < SIZE; i++\) {) Tj
+T*
+(        cout << "Student " << i + 1 << ": ";) Tj
+T*
+(        getline\(cin, names[i]\);) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    for \(int i = 0; i < SIZE - 1; i++\) {) Tj
+T*
+(        for \(int j = 0; j < SIZE - i - 1; j++\) {) Tj
+T*
+(            if \(names[j] > names[j + 1]\) {) Tj
+T*
+(                string temp = names[j];) Tj
+T*
+(                names[j] = names[j + 1];) Tj
+T*
+(                names[j + 1] = temp;) Tj
+T*
+(            }) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    cout << "\\nNames in alphabetical order:" << endl;) Tj
+T*
+(    for \(int i = 0; i < SIZE; i++\) {) Tj
+T*
+(        cout << names[i] << endl;) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 2135 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q05_Power_System_Load_Analysis.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 2 - Question 5) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(double calculateTotalLoad\(const double loads[], int size\) {) Tj
+T*
+(    double total = 0;) Tj
+T*
+(    for \(int i = 0; i < size; i++\) {) Tj
+T*
+(        total += loads[i];) Tj
+T*
+(    }) Tj
+T*
+(    return total;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(double findPeakLoad\(const double loads[], int size\) {) Tj
+T*
+(    double peak = loads[0];) Tj
+T*
+(    for \(int i = 1; i < size; i++\) {) Tj
+T*
+(        if \(loads[i] > peak\) {) Tj
+T*
+(            peak = loads[i];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(    return peak;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    const int HOURS = 24;) Tj
+T*
+(    double loadData[HOURS];) Tj
+T*
+() Tj
+T*
+(    cout << "Enter load demand in MW for 24 hours:" << endl;) Tj
+T*
+(    for \(int i = 0; i < HOURS; i++\) {) Tj
+T*
+(        cout << "Hour " << i + 1 << ": ";) Tj
+T*
+(        cin >> loadData[i];) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    double totalLoad = calculateTotalLoad\(loadData, HOURS\);) Tj
+T*
+(    double peakLoad = findPeakLoad\(loadData, HOURS\);) Tj
+T*
+() Tj
+T*
+(    cout << "\\nTotal load for the day = " << totalLoad << " MW" << endl;) Tj
+T*
+(    cout << "Peak load = " << peakLoad << " MW" << endl;) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q06_Student_Marks_Analysis.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 2 - Question 6) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(#include <string>) Tj
+T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 2375 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int findTopperIndex\(const int marks[], int size\) {) Tj
+T*
+(    int topperIndex = 0;) Tj
+T*
+(    for \(int i = 1; i < size; i++\) {) Tj
+T*
+(        if \(marks[i] > marks[topperIndex]\) {) Tj
+T*
+(            topperIndex = i;) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(    return topperIndex;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(void displayPassFailStatus\(const string names[], const int marks[], int size\) {) Tj
+T*
+(    cout << "\\nPass/Fail Status:" << endl;) Tj
+T*
+(    for \(int i = 0; i < size; i++\) {) Tj
+T*
+(        cout << names[i] << " = " << \(marks[i] >= 50 ? "Pass" : "Fail"\) << endl;) Tj
+T*
+(    }) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(int searchStudentByName\(const string names[], int size, const string& targetName\) {) Tj
+T*
+(    for \(int i = 0; i < size; i++\) {) Tj
+T*
+(        if \(names[i] == targetName\) {) Tj
+T*
+(            return i;) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(    return -1;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    const int SIZE = 5;) Tj
+T*
+(    string names[SIZE];) Tj
+T*
+(    int marks[SIZE];) Tj
+T*
+(    string searchName;) Tj
+T*
+() Tj
+T*
+(    cout << "Enter names and marks of 5 students:" << endl;) Tj
+T*
+(    cin.ignore\(\);) Tj
+T*
+(    for \(int i = 0; i < SIZE; i++\) {) Tj
+T*
+(        cout << "\\nStudent " << i + 1 << " name: ";) Tj
+T*
+(        getline\(cin, names[i]\);) Tj
+T*
+() Tj
+T*
+(        cout << "Marks of " << names[i] << ": ";) Tj
+T*
+(        cin >> marks[i];) Tj
+T*
+(        cin.ignore\(\);) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    int topperIndex = findTopperIndex\(marks, SIZE\);) Tj
+T*
+() Tj
+T*
+(    cout << "\\nTopper = " << names[topperIndex]) Tj
+T*
+(         << " with marks " << marks[topperIndex] << endl;) Tj
+T*
+() Tj
+T*
+(    displayPassFailStatus\(names, marks, SIZE\);) Tj
+T*
+() Tj
+T*
+(    cout << "\\nEnter student name to search: ";) Tj
+T*
+(    getline\(cin, searchName\);) Tj
+T*
+() Tj
+T*
+(    int foundIndex = searchStudentByName\(names, SIZE, searchName\);) Tj
+T*
+(    if \(foundIndex != -1\) {) Tj
+T*
+(        cout << searchName << " found with marks " << marks[foundIndex] << endl;) Tj
+T*
+(    } else {) Tj
+T*
+(        cout << searchName << " not found in the record." << endl;) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+14 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 15 0 R >>
+endobj
+15 0 obj
+<< /Length 2361 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q07_Renewable_Energy_Monitoring_System.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 2 - Question 7) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(double calculateTotalEnergy\(const double energy[], int size\) {) Tj
+T*
+(    double total = 0;) Tj
+T*
+(    for \(int i = 0; i < size; i++\) {) Tj
+T*
+(        total += energy[i];) Tj
+T*
+(    }) Tj
+T*
+(    return total;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(int findMaximumGenerationHour\(const double energy[], int size\) {) Tj
+T*
+(    int maxIndex = 0;) Tj
+T*
+(    for \(int i = 1; i < size; i++\) {) Tj
+T*
+(        if \(energy[i] > energy[maxIndex]\) {) Tj
+T*
+(            maxIndex = i;) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(    return maxIndex;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(double calculateAverageEnergy\(const double energy[], int size\) {) Tj
+T*
+(    return calculateTotalEnergy\(energy, size\) / size;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    const int HOURS = 24;) Tj
+T*
+(    double energyGenerated[HOURS];) Tj
+T*
+() Tj
+T*
+(    cout << "Enter energy generation data in kWh for 24 hours:" << endl;) Tj
+T*
+(    for \(int i = 0; i < HOURS; i++\) {) Tj
+T*
+(        cout << "Hour " << i + 1 << ": ";) Tj
+T*
+(        cin >> energyGenerated[i];) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    double totalEnergy = calculateTotalEnergy\(energyGenerated, HOURS\);) Tj
+T*
+(    int maxHourIndex = findMaximumGenerationHour\(energyGenerated, HOURS\);) Tj
+T*
+(    double averageEnergy = calculateAverageEnergy\(energyGenerated, HOURS\);) Tj
+T*
+() Tj
+T*
+(    cout << "\\nTotal energy generated = " << totalEnergy << " kWh" << endl;) Tj
+T*
+(    cout << "Hour with maximum generation = " << maxHourIndex + 1 << endl;) Tj
+T*
+(    cout << "Average energy generation = " << averageEnergy << " kWh" << endl;) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q08_Battery_Health_Monitoring.cpp) Tj
+T*
+ET
+endstream
+endobj
+16 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 17 0 R >>
+endobj
+17 0 obj
+<< /Length 2637 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(============================================================) Tj
+T*
+(// Assignment 2 - Question 8) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(int countUnsafeReadings\(const double voltages[], int size, double minimumSafe, double maximumSafe\) {) Tj
+T*
+(    int count = 0;) Tj
+T*
+(    for \(int i = 0; i < size; i++\) {) Tj
+T*
+(        if \(voltages[i] < minimumSafe || voltages[i] > maximumSafe\) {) Tj
+T*
+(            count++;) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(    return count;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(double findMinimumVoltage\(const double voltages[], int size\) {) Tj
+T*
+(    double minimumValue = voltages[0];) Tj
+T*
+(    for \(int i = 1; i < size; i++\) {) Tj
+T*
+(        if \(voltages[i] < minimumValue\) {) Tj
+T*
+(            minimumValue = voltages[i];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(    return minimumValue;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(double findMaximumVoltage\(const double voltages[], int size\) {) Tj
+T*
+(    double maximumValue = voltages[0];) Tj
+T*
+(    for \(int i = 1; i < size; i++\) {) Tj
+T*
+(        if \(voltages[i] > maximumValue\) {) Tj
+T*
+(            maximumValue = voltages[i];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(    return maximumValue;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    const int SIZE = 20;) Tj
+T*
+(    const double MIN_SAFE_VOLTAGE = 3.0;) Tj
+T*
+(    const double MAX_SAFE_VOLTAGE = 4.2;) Tj
+T*
+(    double voltages[SIZE];) Tj
+T*
+() Tj
+T*
+(    cout << "Enter 20 voltage readings of the battery:" << endl;) Tj
+T*
+(    for \(int i = 0; i < SIZE; i++\) {) Tj
+T*
+(        cout << "Reading " << i + 1 << ": ";) Tj
+T*
+(        cin >> voltages[i];) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    int unsafeReadings = countUnsafeReadings\(voltages, SIZE, MIN_SAFE_VOLTAGE, MAX_SAFE_VOLTAGE\);) Tj
+T*
+(    double minimumVoltage = findMinimumVoltage\(voltages, SIZE\);) Tj
+T*
+(    double maximumVoltage = findMaximumVoltage\(voltages, SIZE\);) Tj
+T*
+() Tj
+T*
+(    cout << "\\nMinimum voltage = " << minimumVoltage << " V" << endl;) Tj
+T*
+(    cout << "Maximum voltage = " << maximumVoltage << " V" << endl;) Tj
+T*
+(    cout << "Unsafe readings count = " << unsafeReadings << endl;) Tj
+T*
+() Tj
+T*
+(    if \(unsafeReadings > 0\) {) Tj
+T*
+(        cout << "Warning: Unsafe voltage readings exist." << endl;) Tj
+T*
+(    } else {) Tj
+T*
+(        cout << "All voltage readings are within the safe range." << endl;) Tj
+T*
+ET
+endstream
+endobj
+18 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 19 0 R >>
+endobj
+19 0 obj
+<< /Length 2245 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(    }) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q09_Smart_Grid_Load_Distribution.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 2 - Question 9) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(void calculateRegionTotals\(const double consumption[][7], int rows, int cols, double totals[]\) {) Tj
+T*
+(    for \(int i = 0; i < rows; i++\) {) Tj
+T*
+(        totals[i] = 0;) Tj
+T*
+(        for \(int j = 0; j < cols; j++\) {) Tj
+T*
+(            totals[i] += consumption[i][j];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(int findHighestDemandDay\(const double consumption[][7], int rows, int cols\) {) Tj
+T*
+(    int highestDayIndex = 0;) Tj
+T*
+(    double highestTotal = 0;) Tj
+T*
+() Tj
+T*
+(    for \(int day = 0; day < cols; day++\) {) Tj
+T*
+(        double dayTotal = 0;) Tj
+T*
+(        for \(int region = 0; region < rows; region++\) {) Tj
+T*
+(            dayTotal += consumption[region][day];) Tj
+T*
+(        }) Tj
+T*
+() Tj
+T*
+(        if \(day == 0 || dayTotal > highestTotal\) {) Tj
+T*
+(            highestTotal = dayTotal;) Tj
+T*
+(            highestDayIndex = day;) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    return highestDayIndex;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(double calculateOverallAverage\(const double consumption[][7], int rows, int cols\) {) Tj
+T*
+(    double total = 0;) Tj
+T*
+(    for \(int i = 0; i < rows; i++\) {) Tj
+T*
+(        for \(int j = 0; j < cols; j++\) {) Tj
+T*
+(            total += consumption[i][j];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(    return total / \(rows * cols\);) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    const int REGIONS = 4;) Tj
+T*
+(    const int DAYS = 7;) Tj
+T*
+(    double consumption[REGIONS][DAYS];) Tj
+T*
+(    double regionTotals[REGIONS];) Tj
+T*
+() Tj
+T*
+(    cout << "Enter power consumption in MW for 4 regions over 7 days:" << endl;) Tj
+T*
+ET
+endstream
+endobj
+20 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 21 0 R >>
+endobj
+21 0 obj
+<< /Length 2619 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(    for \(int i = 0; i < REGIONS; i++\) {) Tj
+T*
+(        for \(int j = 0; j < DAYS; j++\) {) Tj
+T*
+(            cout << "Region " << i + 1 << ", Day " << j + 1 << ": ";) Tj
+T*
+(            cin >> consumption[i][j];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    calculateRegionTotals\(consumption, REGIONS, DAYS, regionTotals\);) Tj
+T*
+(    int highestDemandDay = findHighestDemandDay\(consumption, REGIONS, DAYS\);) Tj
+T*
+(    double overallAverage = calculateOverallAverage\(consumption, REGIONS, DAYS\);) Tj
+T*
+() Tj
+T*
+(    cout << "\\nTotal consumption for each region:" << endl;) Tj
+T*
+(    for \(int i = 0; i < REGIONS; i++\) {) Tj
+T*
+(        cout << "Region " << i + 1 << " = " << regionTotals[i] << " MW" << endl;) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    cout << "\\nDay with highest total demand = Day " << highestDemandDay + 1 << endl;) Tj
+T*
+(    cout << "Overall average consumption = " << overallAverage << " MW" << endl;) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+(============================================================) Tj
+T*
+(Q10_Classroom_Attendance_System.cpp) Tj
+T*
+(============================================================) Tj
+T*
+(// Assignment 2 - Question 10) Tj
+T*
+(// Name: Zawar Shah) Tj
+T*
+(// Registration No: BF25NWELE0677) Tj
+T*
+() Tj
+T*
+(#include <iostream>) Tj
+T*
+(using namespace std;) Tj
+T*
+() Tj
+T*
+(void calculateStudentAttendance\(const int attendance[][7], int rows, int cols, int totals[]\) {) Tj
+T*
+(    for \(int i = 0; i < rows; i++\) {) Tj
+T*
+(        totals[i] = 0;) Tj
+T*
+(        for \(int j = 0; j < cols; j++\) {) Tj
+T*
+(            totals[i] += attendance[i][j];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(int findHighestAttendanceStudent\(const int totals[], int size\) {) Tj
+T*
+(    int highestIndex = 0;) Tj
+T*
+(    for \(int i = 1; i < size; i++\) {) Tj
+T*
+(        if \(totals[i] > totals[highestIndex]\) {) Tj
+T*
+(            highestIndex = i;) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+(    return highestIndex;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+(double calculateAttendancePercentage\(const int attendance[][7], int rows, int cols\) {) Tj
+T*
+(    int presentCount = 0;) Tj
+T*
+(    for \(int i = 0; i < rows; i++\) {) Tj
+T*
+(        for \(int j = 0; j < cols; j++\) {) Tj
+T*
+(            presentCount += attendance[i][j];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    return \(static_cast<double>\(presentCount\) / \(rows * cols\)\) * 100;) Tj
+T*
+ET
+endstream
+endobj
+22 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 23 0 R >>
+endobj
+23 0 obj
+<< /Length 1491 >>
+stream
+BT
+/F1 10 Tf
+12 TL
+40 800 Td
+(}) Tj
+T*
+() Tj
+T*
+(int main\(\) {) Tj
+T*
+(    const int STUDENTS = 5;) Tj
+T*
+(    const int DAYS = 7;) Tj
+T*
+(    int attendance[STUDENTS][DAYS];) Tj
+T*
+(    int studentTotals[STUDENTS];) Tj
+T*
+() Tj
+T*
+(    cout << "Enter attendance for 5 students over 7 days \(1 for present, 0 for absent\):" << endl;) Tj
+T*
+(    for \(int i = 0; i < STUDENTS; i++\) {) Tj
+T*
+(        for \(int j = 0; j < DAYS; j++\) {) Tj
+T*
+(            cout << "Student " << i + 1 << ", Day " << j + 1 << ": ";) Tj
+T*
+(            cin >> attendance[i][j];) Tj
+T*
+(        }) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    calculateStudentAttendance\(attendance, STUDENTS, DAYS, studentTotals\);) Tj
+T*
+(    int highestAttendanceStudent = findHighestAttendanceStudent\(studentTotals, STUDENTS\);) Tj
+T*
+(    double attendancePercentage = calculateAttendancePercentage\(attendance, STUDENTS, DAYS\);) Tj
+T*
+() Tj
+T*
+(    cout << "\\nTotal attendance of each student:" << endl;) Tj
+T*
+(    for \(int i = 0; i < STUDENTS; i++\) {) Tj
+T*
+(        cout << "Student " << i + 1 << " = " << studentTotals[i] << " days" << endl;) Tj
+T*
+(    }) Tj
+T*
+() Tj
+T*
+(    cout << "\\nStudent with highest attendance = Student " << highestAttendanceStudent + 1 << endl;) Tj
+T*
+(    cout << "Overall class attendance percentage = " << attendancePercentage << "%" << endl;) Tj
+T*
+() Tj
+T*
+(    return 0;) Tj
+T*
+(}) Tj
+T*
+() Tj
+T*
+() Tj
+T*
+() Tj
+T*
+ET
+endstream
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000000010 00000 n 
+0000000062 00000 n 
+0000000186 00000 n 
+0000000257 00000 n 
+0000000386 00000 n 
+0000002684 00000 n 
+0000002813 00000 n 
+0000005071 00000 n 
+0000005200 00000 n 
+0000007428 00000 n 
+0000007559 00000 n 
+0000009749 00000 n 
+0000009880 00000 n 
+0000012310 00000 n 
+0000012441 00000 n 
+0000014857 00000 n 
+0000014988 00000 n 
+0000017680 00000 n 
+0000017811 00000 n 
+0000020111 00000 n 
+0000020242 00000 n 
+0000022916 00000 n 
+0000023047 00000 n 
+trailer
+<< /Size 24 /Root 1 0 R >>
+startxref
+24593
+%%EOF
