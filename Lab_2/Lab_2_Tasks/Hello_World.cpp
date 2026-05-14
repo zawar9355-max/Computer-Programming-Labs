@@ -1,4 +1,4 @@
-﻿// Lab_1_Hello.cpp
+﻿// Lab 2 Task 2.cpp
 // Name: [Zawar Shah]
 // Registration Number: [BF25NWELE0677]
 
