@@ -1,8 +1,9 @@
-// Task Name: [Simple Calculator Using Switch]
+﻿// Task Name: [Simple Calculator Using Switch]
 // Name: [Zawar Shah]
 // Registration Number: [BF25NWELE0677]
 
 #include <iostream>
+
 using namespace std;
 
 int main() {
@@ -38,3 +39,4 @@ int main() {
     cout << leftOperand << ' ' << operation << ' ' << rightOperand << " = " << result << endl;
     return 0;
 }
+
